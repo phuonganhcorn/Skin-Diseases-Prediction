@@ -71,3 +71,5 @@ python train.py    // Users need to check the source code file and change the pa
 ```
 python app.py    // Change the checkpoint name/path (right now is model.h5) in app.py file 
 ```
+> [!TIPS]
+> When developing this project, the data handling part was built based on my understanding gained from working with CSV files and list/array type of data in python. Users can modify this section by using libraries such as pandas dataframe. This will streamline the code and significantly accelerate the execution time, especially with large datasets like HAM10000.

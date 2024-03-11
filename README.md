@@ -13,7 +13,7 @@ The goal of this project is to develop a skin disease prediction application tha
 ---
 ## Dataset
 The project utilizes the **_publicly available HAM10000 dataset_** with below informations:
-```
+
 - **Name**: HAM10000 (Human Against Machine with 10,000 training images)
 - **Content**: Dermatoscopic images of various pigmented skin lesions
 - **Size**: Contains 10,015 images
@@ -26,8 +26,12 @@ The project utilizes the **_publicly available HAM10000 dataset_** with below in
   - vasc: Vascular lesion
   - df: Dermatofibroma
 - **Annotations**: Each image is accompanied by clinical metadata including patient age, sex, anatomical site of the lesion, and whether the lesion was malignant or benign.
-```
+For more informations and to download the dataset, users can reach to [_**Skin Cancer MNIST HAM10000.**_](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
 ---
+## Architecture
+In this project, _we leverage both MobileNet and ResNet architectures for training_. MobileNet's lightweight design accelerates training and reduces costs, while ResNet's depth enhances the model's ability to capture complex features. This dual approach optimizes both speed and accuracy, ensuring an efficient skin disease prediction system.
+---
+
 ## Implementation
 _First, clone this repository to your computer and then follow the instructions below._
 ### Step 1: Creat virtual/conda environment

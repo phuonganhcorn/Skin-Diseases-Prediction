@@ -69,5 +69,5 @@ python train.py    // Users need to check the source code file and change the pa
 
 ### Step 4: Run the app interface with trained model
 ```
-python app.py
+python app.py    // Change the checkpoint name/path (right now is model.h5) in app.py file 
 ```

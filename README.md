@@ -13,6 +13,7 @@ The goal of this project is to develop a skin disease prediction application tha
 ---
 ## Dataset
 The project utilizes the **_publicly available HAM10000 dataset_** with below informations:
+```
 - **Name**: HAM10000 (Human Against Machine with 10,000 training images)
 - **Content**: Dermatoscopic images of various pigmented skin lesions
 - **Size**: Contains 10,015 images
@@ -25,7 +26,7 @@ The project utilizes the **_publicly available HAM10000 dataset_** with below in
   - vasc: Vascular lesion
   - df: Dermatofibroma
 - **Annotations**: Each image is accompanied by clinical metadata including patient age, sex, anatomical site of the lesion, and whether the lesion was malignant or benign.
-
+```
 ---
 ## Implementation
 _First, clone this repository to your computer and then follow the instructions below._

@@ -67,3 +67,7 @@ pip install -r requirements.txt
 python train.py    // Users need to check the source code file and change the path link to their dataset.
 ```
 
+### Step 4: Run the app interface with trained model
+```
+python app.py
+```

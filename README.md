@@ -1,8 +1,5 @@
 # Skin Disease Prediction app
 
----
-
-
 ## Overview 
 
 The goal of this project is to develop a skin disease prediction application that utilizes machine learning techniques and AI models to predict the likelihood of various skin diseases based on input images. _**The application aims to assist users in identifying potential skin conditions by providing the top three probable diseases along with their accuracies.**_

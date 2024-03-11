@@ -30,38 +30,40 @@ For more informations and to download the dataset, users can reach to [_**Skin C
 ---
 ## Architecture
 In this project, _we leverage both MobileNet and ResNet architectures for training_. MobileNet's lightweight design accelerates training and reduces costs, while ResNet's depth enhances the model's ability to capture complex features. This dual approach optimizes both speed and accuracy, ensuring an efficient skin disease prediction system.
+
 ---
 
 ## Implementation
-_First, clone this repository to your computer and then follow the instructions below._
+
+For model training, especially with a large dataset like ours, CPU/GPU resources are essential due to high RAM requirements. Therefore, I strongly advise users to conduct training within a virtual environment or a Conda environment to efficiently manage GPU resources.
+
+First, clone this repository to your computer and then follow the instructions below.
 ### Step 1: Creat virtual/conda environment
 - _With virtual environment_
 ```
-python -m venv gemini-chatbot
-source gemini-chatbot/bin/activate #for ubuntu
-gemini-chatbot/Scripts/activate #for windows
+python -m venv skin-disease
+source skin-disease/bin/activate #for ubuntu
+skin-diseas/Scripts/activate #for windows
 ```
 - _With conda environment_
+> [!NOTE]
+> To utilize a Conda environment for training, users are required to install Anaconda or Miniconda. Further instructions and tutorials can be found at the following link: [Miniconda](https://docs.anaconda.com/free/miniconda/index.html).
 ```
-conda create --name gemini-chatbot
+conda create --name skin-disease
 ```
 _After the installation, run command below to activate conda environment_
 ```
-conda activate gemini-chatbot
+conda activate skin-disease
 ```
 
 ### Step 2: Install libraries
 ```
-cd ./Gemini-Medical-Chatbot
+cd ./Skin-Diseases-Prediction
 pip install -r requirements.txt
 ```
 
-### Step 3: Run chatbot interface with Streamlit
+### Step 3: Train the model
 ```
-streamlit run app.py
+python train.py    // Users need to check the source code file and change the path link to their dataset.
 ```
----
 
-> [!NOTE]
-> - This chatbot right now just answer to questions related to medical topic and in Vietnamese, this is because of ```keywords.txt```. Users can modify this with English keywords or any other languages.
-> - To ensure that the model responds only within the scope of the medical field, I have created a file containing keywords related to the medical topic. Users can update ```keywords.txt``` file after cloning this repository to enhance the accuracy/flexibility of the chatbot.

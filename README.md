@@ -12,7 +12,7 @@ The goal of this project is to develop a skin disease prediction application tha
 
 ---
 ## Dataset
-The project utilizes the **_publicly available HAM10000 dataset_** with below informations:
+The project utilizes the _publicly available HAM10000 dataset_ with below informations:
 
 - **Name**: HAM10000 (Human Against Machine with 10,000 training images)
 - **Content**: Dermatoscopic images of various pigmented skin lesions

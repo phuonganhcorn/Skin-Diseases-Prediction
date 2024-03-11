@@ -28,7 +28,7 @@ The project utilizes the **_publicly available HAM10000 dataset_** with below in
 - **Annotations**: Each image is accompanied by clinical metadata including patient age, sex, anatomical site of the lesion, and whether the lesion was malignant or benign.
 For more informations and to download the dataset, users can reach to [_**Skin Cancer MNIST HAM10000.**_](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
 ---
-## Architecture
+## Model Architecture
 In this project, _we leverage both MobileNet and ResNet architectures for training_. MobileNet's lightweight design accelerates training and reduces costs, while ResNet's depth enhances the model's ability to capture complex features. This dual approach optimizes both speed and accuracy, ensuring an efficient skin disease prediction system.
 
 ---

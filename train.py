@@ -362,8 +362,7 @@ class TrainModel():
             6: 1.0, # vasc
             }
         return class_weights
-    
-    import numpy as np
+
 
     def output(self, model, train_batches, test_batches, test_steps, train_steps):
         filepath = "/home/phuonganh/speechbrain/shecodes/Skin-Lesion-Analyzer-master/model2.h5"

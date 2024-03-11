@@ -17,13 +17,13 @@ The project utilizes the **_publicly available HAM10000 dataset_** with below in
 - **Content**: Dermatoscopic images of various pigmented skin lesions
 - **Size**: Contains 10,015 images
 - **7 Classes**: Includes seven different diagnostic categories:
-  - Melanoma
-  - Melanocytic nevus
-  - Basal cell carcinoma
-  - Actinic keratosis / Bowen's disease (intraepithelial carcinoma)
-  - Benign keratosis (solar lentigo / seborrheic keratosis / lichen planus-like keratosis)
-  - Dermatofibroma
-  - Vascular lesions (angiomas, angiokeratomas, pyogenic granulomas, and hemorrhage)
+  - nv: Melanocytic nevus (common mole)
+  - mel: Melanoma
+  - bkl: Benign keratosis-like lesion
+  - bcc: Basal cell carcinoma
+  - akiec: Actinic keratosis / Bowen's disease (intraepithelial carcinoma)
+  - vasc: Vascular lesion
+  - df: Dermatofibroma
 - **Annotations**: Each image is accompanied by clinical metadata including patient age, sex, anatomical site of the lesion, and whether the lesion was malignant or benign.
 
 ---
